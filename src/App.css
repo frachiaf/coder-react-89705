@@ -1,13 +1,15 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  /* Use Roboto for app text; headings use Gravitas One (set in index.css) */
+  font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-style: normal;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: auto;
+  max-width: 145px;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -36,7 +38,6 @@
 .card-container {
   padding: 2em;
   display: flex;
-  flex-direction: column;
   gap: 1em;
 }
 

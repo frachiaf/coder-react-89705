@@ -3,13 +3,13 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background: #d6766a;
-    padding: .5rem;
+    background: #c5a258;
+    padding: .0 0 1.5rem 0;
 }
 
 .card-item:hover {
     transform: translateY(-4px);
-    box-shadow: 0 4px 12px #d6766a;
+    box-shadow: 0 4px 12px #c5a258;
 }
 
 .card-item img {
@@ -58,7 +58,7 @@
 .card-item .cantidad-container span {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #d6766a;
+    color: #c5a258;
     background-color: white;
     width: 100%;
     text-align: center;
