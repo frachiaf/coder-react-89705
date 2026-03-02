@@ -1,7 +1,7 @@
 
 import './Cart.css';
 
-function Cart () {
+function CartWidget () {
     // placeholder state for item count, to be updated later
     // const [count, setCount] = useState(0);
 
@@ -21,4 +21,4 @@ function Cart () {
 }
 
 
-export default Cart;
+export default CartWidget;

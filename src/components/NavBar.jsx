@@ -1,14 +1,14 @@
 
 import './NavBar.css' 
 import Logo from './Logo'
-import Cart from './Cart'
+import CartWidget from './CartWidget'
 
 function NavBar() {
     return (
         <header className="header">
             <a href='#' className="card-img">Shop</a>
             <Logo></Logo>
-            <Cart></Cart>
+            <CartWidget></CartWidget>
         </header>
     )
 }
