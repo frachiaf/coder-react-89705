@@ -4,7 +4,7 @@ import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   //* <> fragment
-  let titulo = 'Pre Entrega 1 - 89705'
+  let titulo = 'Clase 03'
   return (
     <main>
       <NavBar></NavBar>

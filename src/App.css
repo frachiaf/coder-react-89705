@@ -2,6 +2,7 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  align-self: start;
   /* Use Roboto for app text; headings use Gravitas One (set in index.css) */
   font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-style: normal;

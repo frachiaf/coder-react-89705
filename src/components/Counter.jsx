@@ -1,9 +1,17 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 function Counter() {
     const [cantidad, setCantidad] = useState(1)
     // ? 1. Guardar cantidad inicial
     // ? 2. Actualizar cantidad
+
+    useEffect( () => {
+        // * Controlar CUANDO se ejectura este efecto/tarea
+        // Se ejecuta solo en el montaje esto
+        console.log("Ej: Filtro de productos - montaje")
+    }, [] )
+
+    console.log("Render del componente")
 
     function restar(){
         // TODO: Validar nums negativos
