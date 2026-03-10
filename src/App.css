@@ -38,8 +38,10 @@
 
 .card-container {
   padding: 2em;
-  display: flex;
+  display: grid;
   gap: 1em;
+  list-style-type: none;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .read-the-docs {

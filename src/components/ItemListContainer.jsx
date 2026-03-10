@@ -7,8 +7,8 @@ function ItemListContainer({title}) {
     // Todavia necesita mostrar los datos de la promise
     getProducts().then(
         (response) => {
-            alert("Recibimos los datos")
-            console.log("Datos recibidos: " + response)
+            // alert("Recibimos los datos")
+            console.log("Datos recibidos: " + JSON.stringify(response))
         }
     ).catch( (error) => alert(error) )
     return (
